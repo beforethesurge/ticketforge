@@ -490,7 +490,7 @@ class TemplateEditor(QMainWindow):
                 self.current_template = None
 
     def get_template_fields(self, template_text):
-        """Extract input fields from template text without using regex."""
+        """Extract input fields from template text."""
         fields = []
         start = 0
 
